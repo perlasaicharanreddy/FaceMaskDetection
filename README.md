@@ -3,17 +3,16 @@
 
 
 
-**Major project submitted in partial fulfillment of the requirements for the award of the degree of**
+**Major project submitted in partial fulfillment of the requirements for the award of the degree of BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING Submitted by Perla Sai Charan Reddy Under the guidance of Mrs. Koti Neha Assistant Professor DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING GITAM**
 
-**BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING Submitted by Perla Sai Charan Reddy**
-
-**Under the guidance of Mrs. Koti Neha Assistant Professor DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING GITAM**
 
 
 
 1. **ABSTRACT**
 
 The COVID-19 coronavirus pandemic is causing health crises around the world. According to the World Health Organization (WHO), wearing a face mask is an effective means of protection in public places. In most public gatherings such as shopping centers, theaters, parks, it is increasingly necessary to make sure that people in the crowd are wearing masks. Developing an artificial intelligence solution that determines whether a person is wearing a mask and letting it in will be great help for the society. In this case, a simple face mask detection system is built using deep learning techniques such as machine learning and persuasive neural network. The model is built with machine learning and OpenCV libraries often used for real-time applications. This model can also be used to develop complete software that scans each person before going to a public meeting.
+
+
 
 2. **INTRODUCTION**
 
@@ -23,6 +22,8 @@ COVID-19 presents a major public and economic health problem today because it ha
 
 Face mask detection is both a detection problem and a classification problem because you first need to find a person's face in a digital image and then decide whether a mask is needed or not. The main goal of this study is to identify and find medical face masks in images. In this article, the masked face is a major focus of research aimed at reducing the spread of the coronavirus, especially COVID-19. All object detection methods are divided into machine learning and deep learning. It uses a convincing neural network due to its high speed and performance.
 
+
+
 3. **LITERATURE SURVEY**
 
 Much literature has been written on the perception of sensory activity. Bulling et al. [6] gives an overview of the problem and highlights the possibilities and limitations of distribution models based on static and shallow functions. Alsheikh et al. [2] presents the first model-based deep learning approach for HAR. It generates an inertial signal spectrogram image and transmits the actual image to a convincing neural network. With this method, you don't need to convert the signal to a format suitable for CNN, but creating a spectrometer replaces only the function extraction function and adds initial overhead to network training.
@@ -30,6 +31,8 @@ Much literature has been written on the perception of sensory activity. Bulling 
 No, Jen. It uses the raw acceleration signal as input to the convulsive network and applies a one- dimensional convulsion to all signal components. This technique can lead to loss of spatial conditions between different components on the same sensor. It mainly focuses on the amount of data widely available from embedded sensors (e.g. smartphones) or portable handheld sensors. A similar method is provided.
 
 Yangetal. In their work they usually use the same amount of data as available, but use two- dimensional interference to represent the channels with motion signals. This custom CNN activity recognition app is further enhanced by Haetal with a powerful multi-channel network that distributes daily activities across popular extreme motion datasets using acceleration and angular velocity signals. The distribution tasks they perform are individual, so the signals received from each participant are used to train individual models for training. One of the missing pieces in each of the detailed training models described earlier is the comparison of the classification performance of individual inspectors or groups. This article aims to solve your activity identification problem correctly and then implement a deep CNN that allows you to compare the results obtained with various sensor combinations. We also pay particular attention to the set of exercises included in Otago's training program. To the best of our knowledge, this group of documents has never been investigated for perceptual activity before.
+
+
 
 4. **PROBLEM IDENTIFICATION AND OBJECTIVES**
  **INTRODUCTION**
@@ -161,6 +164,7 @@ The machine learning architecture defines the various layers that make up the ma
 ![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.009.jpeg)
 
 Fig 5.7:Architecture diagram
+
 
 
 
@@ -537,9 +541,13 @@ Fig 8.13 Live Face with mask detection
 
 Fig 8.14 Live Face without mask detection
 
+
+
 9. **CONCLUSIONS AND FUTURE SCOPE**
 
 Face-based identification can be broadly divided into two application scenarios: an unmanaged application environment and a managed application environment. The first is primarily concerned with public surveillance situations where surface launch distance, visibility, posture, occlusion and lighting are uncertain. In this case, the accuracy of face recognition is relatively low. Also, wearing a face mask reduces the accuracy even further. However, there are many managed application scenarios such as checking the presence of the workplace up to the camera, checking the security of the train station, and the cost of scanning the surface. This makes it easy to get a high-quality frontal image, so the task of identifying the masked face is no longer difficult.
+
+
 
 10. **REFERENCES**
 
