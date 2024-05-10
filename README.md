@@ -1,12 +1,14 @@
-﻿                                              # Face Mask Detection
+﻿# Face Mask Detection
 
-**Major project submitted in partial fulfillment of the requirements for the award of the degree of BACHELOR OF TECHNOLOGY**
 
-**IN COMPUTER SCIENCE AND ENGINEERING Submitted by Perla Sai Charan Reddy**
 
-**Under the guidance of Mrs. Koti Neha Assistant Professor**
 
-**DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING GITAM**
+**Major project submitted in partial fulfillment of the requirements for the award of the degree of**
+
+**BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE AND ENGINEERING Submitted by Perla Sai Charan Reddy**
+
+**Under the guidance of Mrs. Koti Neha Assistant Professor DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING GITAM**
+
 
 
 1. **ABSTRACT**
@@ -30,11 +32,11 @@ No, Jen. It uses the raw acceleration signal as input to the convulsive network 
 Yangetal. In their work they usually use the same amount of data as available, but use two- dimensional interference to represent the channels with motion signals. This custom CNN activity recognition app is further enhanced by Haetal with a powerful multi-channel network that distributes daily activities across popular extreme motion datasets using acceleration and angular velocity signals. The distribution tasks they perform are individual, so the signals received from each participant are used to train individual models for training. One of the missing pieces in each of the detailed training models described earlier is the comparison of the classification performance of individual inspectors or groups. This article aims to solve your activity identification problem correctly and then implement a deep CNN that allows you to compare the results obtained with various sensor combinations. We also pay particular attention to the set of exercises included in Otago's training program. To the best of our knowledge, this group of documents has never been investigated for perceptual activity before.
 
 4. **PROBLEM IDENTIFICATION AND OBJECTIVES**
-1. **INTRODUCTION**
+ **INTRODUCTION**
 
 Problem identification is part of a scientific approach because it is the first step in a systematic process of identifying, evaluating, and exploring possible solutions.
 
-2. **EXISTING SYSTEM**
+ **EXISTING SYSTEM**
 
 Existing methods using support Artificial Neural Networks and other machine learning models .
 
@@ -42,55 +44,55 @@ Existing methods using support Artificial Neural Networks and other machine lear
 
 Classification is slower and costlier with respect to time and memory. It is not suitable for high dimensionality data like images.
 
-3. **PROPOSED SYSTEM**
+**PROPOSED SYSTEM**
 
 By using Convolutional neural network we can detect the face mask. Tenserflow, numpy, pandas,OpenCv these are the some of the packages for understanding purpose of machine learning. By Using CNN we can built model with less memory and high accuracy which helps in detecting face mask and reduce risk of COVD-19.
 
-**Advantages**
+ **Advantages**
 
 Fast, less time and memory
 
-4. **STRUCTURE OF THE PROJECT**
+ **STRUCTURE OF THE PROJECT**
 
 ![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.002.jpeg)
 
  Fig: 4.1 Project SDLC
 
-1. **Accumulation and analysis of requirements**
+ **Accumulation and analysis of requirements**
 
 This is the first and most obvious step in any project, because holidays are the Sabbath for gathering the necessary information. We followed the IEEE journal, collected a lot of IEEE-related documents, and eventually selected it from a website that installed a document called "Review Solo." . The importance of the content was noted and noted, and in the analysis phase, we reviewed articles, reviewed the literature for some articles, and gathered all the details about the project.
 
-2. **System design**
+ **System design**
 
 There are three types of system design: GUI design, UML design with simplified project design with different actors, use case with use case diagram, project flow with sequence, and class diagram embedding information for project with methods to use. When you join our project in a project, UML is used that way. Module of the project
 
-3. **Implementation**
+ **Implementation**
 
 Implementation is the stage where we strive to provide work results to the work done in the design phase, and most of the code in the business logic is implemented as a major part of the project.
 
-4. **Testing**
+ **Testing**
 
 Testing is an operating condition that verifies that a system is operating properly and efficiently before it is actually used. The following is a description of the testing strategy implemented during the testing period.
 
-**4.5.5 System Deployment and Maintenance**
+**System Deployment and Maintenance**
 
 When the project is complete, I will start using my client system in the real world on the Sabbath because I only used all the Windows software that the university needed.Project execution is a one- time process.
 
-5. **OBJECTIVES**
+ **OBJECTIVES**
 
 The goal of the project is to develop a machine learning model which can detect people faces with or without mask and deploy it in website. Reduce the time delay and effort caused for checking weather people wore mask or not in public places.
 
-6. **OUTCOMES**
+ **OUTCOMES**
 
 The images data is collected from Github repository. With this data will be going to train the Machine learning Model. Then Deploy in the website. When the new person data is entered in the website we can detect weather person has wore face mask or not.
 
-7. **APPLICATIONS**
+ **APPLICATIONS**
 
 This strategy used for Face mask detection, facial expressions recognition.
 
-5. **SYSTEM METHODOLOGY AND DESIGN**
+ **SYSTEM METHODOLOGY AND DESIGN**
 
-**5.1 UML DIAGRAMS**
+ **UML DIAGRAMS**
 
 System specifications, operating environment, system and subsystem architecture, file and database design, input formats, output circuits, human machine interfaces, comprehensive design, processing logic, and external interfaces are all described in the system design document.
 
@@ -160,27 +162,8 @@ The machine learning architecture defines the various layers that make up the ma
 
 Fig 5.7:Architecture diagram
 
-8. **Component Diagram**
 
-The sub-diagram for unified modelling language demonstrates how components are combined to create larger components and/or software systems. It's used to demonstrate how a complex arbitrary structure's structure is described.
 
-Components are connected using mounting connections to connect the interface required by one component to a designated interface on another component. This diagram shows the relationship between the two components as service consumers and service providers.
-
-**Image\_Upload![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.010.png)**
-
-**Training CNN\_model Detection Result**
-
-Fig 5.8 Component diagram
-
-9. **Deployment Diagram**
-
-The physical use of objects for nodes is expressed in a uniform modeling language's layout scheme. For example, a location chart on a website shows which hardware components ("nodes") exist (eg web server, application server, and database server), and which software components ("artifacts") are running on each . E.g. web application, database) and how the different parts are connected (e.g. JDBC, REST, RMI).
-
-Objects assigned to each node are represented as rectangles in blocks, and objects themselves as blocks. Child nodes that look like nested blocks can be seen in the node. In a distributed layout, a single node can conceptually represent multiple physical nodes (e.g. database clusters).
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.011.png)
-
-Fig 5.9 Deployment Diagram
 
 **6 OVERVIEW OF TECHNOLOGIES**
 
@@ -333,9 +316,11 @@ Fig 6.2 CNN
 
 **Activation function layer**: The performance of the prison layer is subjected to an elemental activation mechanism in this layer. RELU: max (0, x), Sigmoid: 1 / (1 + e -x), Tanh, Reak Leaky, and so on are some typical activation functions.
 
+
+
 7. **IMPLEMENTATION**
-1. **CODING**
-1. **Pre-Processing**
+ 
+ Pre-Processing
 
 ‘’import cv2 as opencv
 
@@ -525,187 +510,30 @@ if \_\_name\_\_ == '\_\_main\_\_':
 
 main()
 
-2. **TESTING**
 
-Testing is the process of running a bug control program. There should be no errors for the software to function properly. If the test is successful, all bugs are removed from the software.
-
-**Testing Objectives:**
-
-The main goal of the test is to systematically identify many errors with less effort and time.Formally, we can say that testing is the process of implementing an error detection program.
-
-A successful test is one that detects errors that have not yet been detected.
-
-A good test case is the one that has the potential to detect an error if it exists. This test is not suitable for detecting potential defects.
-
-The software meets some of the standards of quality and reliability.
-
-**Levels Of Testing:**
-
-There is a concept of test level to expose the current in different stages. **The basic levels of Testing:**
-
-Customer needs ![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.014.png) acceptance testing
-
-Requirements system testing
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.015.png)
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.016.png)
- 
-![](Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.017.png)
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.018.png)
-
-![](Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.019.png)
-
-Design 
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.020.png) integration testing
-
-Code unit testing
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.021.png)
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.022.png)
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.023.png)
-
-Fig 7.1 Levels of Testing
-
-**Code test:**
-
-‘This explores the logic of the program. For example, the logic to update various sample data and sample files and directories has been tested and validated’.
-
-**Specification:**
-
-Compliance with this specification begins in a way that the program behaves under conditions different from those intended. Test cases are tested for various combinations of situations and conditions for each module.
-
-**Unit testing:**
-
-When it comes to unit testing, each module is evaluated separately and then merged with the rest of the system. Unit testing is a form of software development that focuses on the validation of the smallest unit. Unit testing is another term for this. Separate system modules are reviewed. During the programming process, these experiments are carried out. All modules appear to be functioning satisfactorily during the evaluation period, based on the predicted module performance. There are some field validations as well. Validation is done to adjust the data collected by the consumer, for example, with regards to the validity of the recorded data. An open framework makes it very easy to find flaws.
-
-Each module or unit can be tested with two types:
-
-There are two types of tests that can be performed on each module or unit:
-
-1.Testing in a black box 2.White Box Experimentation
-
-**Black Box Testing**
-
-A black box test is a software testing tool that examines the functionality (HOW) of a programme regardless of its internal code structure, operational details, or routing information. These evaluations are solely based on the program's criteria and specifications. When we test black boxes, we just look at the software's inputs and outputs.
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.024.png)
-
-Fig 7.2 Black box testing
-
-The black box in the image above may be the software framework you're looking to test. Operating systems such as Windows, websites such as Google, databases such as Oracle, and your own applications are only a few examples. You can monitor these programmes by concentrating on the inside and outside, even if you don't understand how the black box's inner code functions.
-
-**White Box Testing**
-
-White Box is putting its own code management tools and infrastructure to the test. It primarily aims to enhance application protection, input and output flow, as well as design and usability. The translucent, clear, structural, and glass box tests are all variations of the white box test.
-
-This is one of the two aspects of the software testing process known as "packing." Black box testing, on the other hand, involves testing from an outside or end-user viewpoint. White box research, on the other hand, is focused on internal testing and is application-based. Instead of the word "transparent box," the term "white box" was used.The name, which is in the shape of a transparent or white rectangle, refers to the ability to view software for internal use through external software (or "blocks"). Similarly, the black box on the black box denotes that you are unable to see the software's internal workings and can only access the user interface.
-
-**What do you check when testing a white box?**
-
-White box testing means testing programming code for:
-
-Inside security hole
-
-Broken or unstructured path in the coding process
-
-Stream specific inputs throughout the code
-
-Expected results
-
-Conditional link function
-
-Test each claim, object and function individually
-
-System creation, integration, and application software software can all be tested. The application workflow is one of the key objectives of white box research. It all comes down to comparing a series of predefined inputs to the predicted or desired output in order to avoid receiving incorrect results if one of the inputs fails to generate the expected output.
-
-**System test:**
-
-After testing individual modules, the modules are assembled, integrated and implemented as a system. To ensure that the entire system works satisfactorily, top-down tests were performed from top to bottom modules.
-
-There are three main types of system tests. 
-i.  Alphabet
-ii. Beta testing
-iii. Acceptance test
-
-**Alphatest:**This includes not only the organization,but also the testing of the system by the test team
-
-**Beta test:** This includes testing the system with a friendly group of customers.
-
-**Test approval:**A system test performed by a customer to determine whether to introduce a system. 
-
-**Integration test:**
-
-Data may be lost through the interface, and combining modules may adversely affect other sub- functions and prevent the necessary basic functions from performing. Integration testing is a systematic test to identify detectable errors in an interface. Testing was performed on sample data. The developed project works perfectly with the marked data. Integration testing is required to determine the overall performance of the system.
+**TESTING**
 
 Accuracy -93%
 
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.025.png)
+![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.025.jpg)
 
-8. **RESULTS AND DISCUSSIONS**
-1. **PRE-PROCESSING**
 
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.026.jpeg)
-
-Fig 8.1 Pre-processing
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.027.jpeg)
-
-Fig 8.2 Pre-processing
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.028.png)
-
-Fig 8.3 Pre-processing
-
-2. **TRAINING**
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.029.png)
-
-Fig 8.4 Training
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.030.jpeg)
-
-Fig 8.5 Training
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.031.jpeg)
-
-Fig 8.6 Training
-
-3. **DETECTION**
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.032.jpeg)
-
-Fig 8.7 Detection
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.033.jpeg)
-
-Fig 8.8 Detection
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.034.jpeg)
-
-Fig 8.9 Detection
-
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.035.jpeg)
 
 Fig 8.10 Web App
 
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.036.jpeg)
+![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.036.jpg)
 
 Fig 8.11 facemask detection from photo
 
-![](ReadmeImages/ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.037.jpeg)
+![](ReadmeImages/ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.037.jpg)
 
 Fig 8.12 face detection without mask from photo
 
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.038.jpeg)
+![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.038.jpg)
 
 Fig 8.13 Live Face with mask detection
 
-![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.039.jpeg)
+![](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.039.jpg)
 
 Fig 8.14 Live Face without mask detection
 
