@@ -1,0 +1,10 @@
+numpy>=1.9.2
+scipy>=0.15.1
+scikit-learn==0.20
+matplotlib>=1.4.3
+pandas>=0.19
+streamlit
+keras
+opencv-python-headless==4.5.1.48
+setuptools
+
