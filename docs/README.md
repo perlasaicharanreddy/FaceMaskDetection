@@ -1,6 +1,5 @@
 ﻿# Face Mask Detection
 
-![Project Banner](ReadmeImages/Aspose.Words.5ed98467-b057-4534-a9cc-ed1eeb018a1d.002.jpeg)
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Enabled-brightgreen)](https://streamlit.io/)
